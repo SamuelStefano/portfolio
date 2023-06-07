@@ -1,0 +1,79 @@
+:root {
+  --cor-da-li: #000000f7;
+  --text-decoration: none;
+}
+
+body {
+  background-image: url("images/fundo-one-piece.gif");
+  background-size: cover;
+  font-family: kingdom_Hearts_Font, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: Kingdom_Hearts_Font;
+  src: url(fonts/Kingdom_Hearts_Font.ttf);
+}
+
+.Menu {
+  font-size: 6em;
+  position: absolute;
+  top: -60px;
+  right: 300px;
+}
+
+.lateral-esquerda {
+  font-size: 4em;
+  line-height: 80px;
+  position: absolute;
+  top: 33px;
+  list-style-type: none;
+}
+
+.lateral-esquerda ul li {
+  cursor: pointer;
+}
+
+/* Créditos fonte */
+.link {
+  text-decoration: underline rgb(255, 255, 0);
+  color: rgb(255, 255, 0);
+}
+
+/* Isso serve para mudar a cor quando passar o mouse em cima do link*/
+.link:hover {
+  color: rgb(0, 0, 0);
+  text-decoration-color: black;
+}
+
+.fonte {
+  font-size: 15px;
+  position: relative;
+  bottom: -620px;
+  color: whitesmoke;
+}
+
+/* seletor luva do mickey */
+.selector {
+  width: 150px;
+  height: 90px;
+  transform: rotate(180deg);
+  transform: scaleX(-1);
+  border-radius: 100%;
+  border-style: hidden;
+  background-image: url(images/seletor.png);
+  background-size: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.3s ease-in-out;
+}
+
+.lateral-esquerda ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link-menu {
+  color: var(--cor-da-li);
+  text-decoration: var(--text-decoration);
+}
