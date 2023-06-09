@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site para teste</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="iniciar.html" />
   </head>
 
   <body>
     <h1 class="Menu">Menu Principal</h1>
     <div class="lateral-esquerda" id="lateral-esquerda">
       <ul>
-        <li class="lista-menu" data-option="iniciar">
-          <a class="link-menu" href="iniciar.html"> Iniciar </a>
+        <li class="link-menu" data-option="iniciar">
+          <a class="link-menus" href="htmls/iniciar.html">Iniciar</a>
         </li>
 
-        <li class="link-menu" data-option="opcoes">Opcoes</li>
-        <li class="link-menu" data-option="extras">Extras</li>
-        <li class="link-menu" data-option="creditos">Creditos</li>
-        <li class="link-menu" data-option="bonus">Bonus</li>
+        <li class="link-menu" data-option="opcoes">
+          <a class="link-menus" href="htmls/opcoes.html">Opcoes</a>
+        </li>
+        <li class="link-menu" data-option="extras">
+          <a class="link-menus" href="htmls/extras.html">Extras</a>
+        </li>
+        <li class="link-menu" data-option="creditos">
+          <a class="link-menus" href="htmls/creditos.html">Creditos</a>
+        </li>
+        <li class="link-menu" data-option="bonus">
+          <a class="link-menus" href="htmls/bonus.html">Bonus</a>
+        </li>
       </ul>
     </div>
     <div class="selector" id="imagem-selecionada"></div>
@@ -29,7 +36,9 @@
       class="iniciar-link"
       href="https://allyourfonts.com/font/kingdom-hearts-font/"
     ></a>
-
+    <div class="setinha">
+      <font face="Arial">Use a setinha do teclado se preferir 🙂</font>
+    </div>
     <div class="fonte">
       <font face="Arial">
         Fonte das letras retiradas do game "Kingdom hearts", disponivel para
@@ -43,6 +52,14 @@
       </font>
     </div>
 
-    <script src="index.js"></script>
+    <div class="transição" style="display: none">
+      <!-- Aqui você pode adicionar o elemento do GIF de transição -->
+      <img
+        src="images/SnapSave.io-Spongebob Bubble Transition(720p).gif"
+        alt="Loading"
+      />
+    </div>
+
+    <script src="javascript/index.js"></script>
   </body>
 </html>
